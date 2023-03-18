@@ -7,9 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: 'appl-shell',
+      name: 'application-shell',
       remotes: {
-        remoteApp: 'http://localhost:5001/assets/app-1.js',
+        app1: 'http://localhost:5001/assets/app-1.js',
+        app2: 'http://localhost:5001/assets/app-1.js',
       },
       shared: ['react','react-dom']
     })

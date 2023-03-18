@@ -1,6 +1,7 @@
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Button from 'remoteApp/Button';
+import Button from 'app1/Button';
+import Button2 from 'app2/Button';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <Button />
+        <Button2 />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
